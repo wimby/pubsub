@@ -1,0 +1,21 @@
+{
+    "name": "wimby/pubsub",
+    "description": "Interfaces for publish subscribe architecture",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": "^5.4"
+    },
+    "require-dev": {
+        "phpspec/phpspec": "^3.1"
+    },
+    "autoload": {
+        "Wimby\\PubSub\\": "src/"
+    },
+    "autoload-dev": {
+        "spec\\Wimby\\PubSub\\": "spec/"
+    },
+    "scripts": {
+        "test": "vendor/bin/phpspec run"
+    }
+}
