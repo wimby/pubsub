@@ -12,5 +12,5 @@ interface Subscriber {
      *
      * @param Event $event event that was dispatched with Subject.
      */
-    public function handleEvent(Event $event);
+    public function handleEvent(Observer $observer, Event $event);
 }
